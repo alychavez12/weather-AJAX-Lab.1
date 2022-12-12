@@ -19,7 +19,7 @@ function handleGetData(event) {
       function (main){
         weatherData = main
          render()
-      
+
       },
       (error) => {
         console.log("bad request", error)
@@ -27,6 +27,7 @@ function handleGetData(event) {
     )
   }
 
+  
   function render() {
     $name.text(weatherData.name)
     $temp.text(weatherData.main.temp)
