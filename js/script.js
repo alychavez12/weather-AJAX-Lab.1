@@ -7,7 +7,10 @@ const $input = $('input[type="text"]');
 let weatherData, userInput;
 
 $("form").on("submit", handleGetData)
-
+$(".submit").click(function(){
+  $(this).css({"background-color":"skyblue"});
+ 
+});
 function handleGetData(event) {
     event.preventDefault()
     /* calling preventDefault() on a 'submit' event will prevent a page refresh*/
