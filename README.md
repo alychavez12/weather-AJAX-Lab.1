@@ -1,1 +1,1 @@
-# weather-AJAX-Lab.1
+# Weather-AJAX-Lab.1
